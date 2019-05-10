@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.dependency 'CocoaLumberjack/Swift', '~> 3.3'
 
+  s.swift_version = '4.0'
   s.vendored_framework   = '*.framework'
-  
 end
