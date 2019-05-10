@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DSLog"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "DSLog is a log system"
 
   s.description  = <<-DESC
@@ -22,5 +22,4 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaLumberjack/Swift', '~> 3.3'
 
   s.swift_version = '4.0'
-  s.vendored_framework   = '*.framework'
 end
