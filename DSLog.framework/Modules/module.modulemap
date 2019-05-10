@@ -1,0 +1,11 @@
+framework module DSLog {
+  umbrella header "DSLog.h"
+
+  export *
+  module * { export * }
+}
+
+module DSLog.Swift {
+    header "DSLog-Swift.h"
+    requires objc
+}
